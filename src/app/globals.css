@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+/* @theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+@layer {
+  body {
+    @apply bg-gray-950
+  }
+
+  .container {
+    @apply w-[1350px] m-auto
+  }
+
+  .item {
+    @apply relative mt-7 py-2 pb-4 px-6 hover:text-teal-600 after:content-[""] after:absolute after:-bottom-0 after:left-0 after:h-1 after:w-full after:bg-teal-600 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
+  }
+
+   .btn {
+    @apply cursor-pointer px-5 py-3 border-2 border-teal-600 bg-teal-600 rounded-md text-white text-lg font-semibold hover:bg-black hover:text-teal-600
+  }
+
+  .teacher {
+    @apply relative bg-white rounded-l-4xl rounded-br-4xl p-5 justify-center after:content-[""] after:absolute after:-bottom-0 after:left-0 after:rounded-l-4xl after:rounded-br-4xl after:h-full after:w-full after:bg-teal-900/60 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
+  }
+}
