@@ -7,9 +7,9 @@ const Banner = () => {
     <section>
       <Slider />
       <div className="container">
-        <div className="grid grid-cols-3 justify-between items-center absolute top-80 z-10">
+        <div className="grid grid-cols-2 pr-70 justify-between items-center absolute top-80 z-10">
           <div>
-            <h1 className=' text-6xl font-oswald uppercase font-extrabold text-white relative '><span className='text-teal-600'>is more important</span> than khowledge</h1>
+            <h1 className=' text-6xl font-oswald uppercase leading-17 font-extrabold text-white relative '>কালকিনি  <br/><span className='text-teal-600'>সৈয়দ আবুল হোসেন</span><br/> কলেজ</h1>
             <p className='mt-8 text-justify text-lg text-white/70 relative left-5 after:w-2 after:h-20 after:bg-teal-600 after:absolute after:top-1.5 after:left-[-20] after:rounded-full'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore in id recusandae perspiciatis sit fugit molestias velit  consequuntur et quo, esse in repellendus nihil voluptatem. Fugit, qui.</p>
             <div className='flex gap-5 mt-10'>
               <button className='btn'>Hire me</button>

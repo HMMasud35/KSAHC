@@ -43,15 +43,15 @@ const Header = () => {
       <nav className={navbar ? 'bg-white fixed w-full z-1000' : "bg-white w-full"}>
         <div className="container">
           <div className="flex justify-between items-center h-20">
-            <div className='cursor-pointer'>
-              <Image className='w-70' width={2053} height={469} src="/logo.png" alt='logo.png' />
+            <div className='cursor-pointer w-17 '>
+              <Image className='' width={2053} height={469} src="/logo.png" alt='logo.png' />
             </div>
             <ul className='flex text-xl text-black items-end'>
               <li className='item'><Link href="/">Home</Link></li>
               <li className='item'><Link href="/about">About</Link></li>
-              <li className='item'><Link href="/gallery">Academic</Link></li>
+              <li className='item'><Link href="/academic">Academic</Link></li>
               <li className='item'><Link href="/portfolio">Admission</Link></li>
-              <li className='item'><Link href="/portfolio">Blog</Link></li>
+              <li className='item'><Link href="/gallery">Gallery</Link></li>
               <li className='item'><Link href="/contact">Contact</Link></li>
               <button className='btn cursor-pointer !py-2 ml-6 mb-2 hover:!bg-transparent'>Apply Now</button>
             </ul>

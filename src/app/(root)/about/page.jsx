@@ -9,13 +9,13 @@ const About = () => {
         <div className='grid grid-cols-2 justify-between items-center'>
           <div className='grid grid-cols-2 grid-rows-2 relative'>
             <div className='row-span-2 rounded-l-full ' >
-              <Image className='w-70 h-100 border-4 border-teal-600 rounded-l-full' width={800} height={600} src="/student-2.png" alt='student-2.png' />
+              <Image className='w-70 h-100 border-4 border-teal-600 rounded-l-full' width={800} height={600} src="/photo-1.jpeg" alt='photo-1.jpeg' />
             </div>
             <div>
-              <Image className='w-70 h-60 border-4 border-teal-600 rounded-2xl' width={800} height={600} src="/student-1.png" alt='student-1.png' />
+              <Image className='w-70 h-60 border-4 border-teal-600 rounded-2xl' width={800} height={600} src="/photo-4.jpeg" alt='photo-4.jpeg' />
             </div>
             <div className=''>
-              <Image className='w-70 h-70 border-4 border-teal-600 rounded-full' width={800} height={600} src="/student-3.png" alt='student-3.png' />
+              <Image className='w-70 h-70 border-4 border-teal-600 rounded-full' width={800} height={600} src="/photo-5.jpeg" alt='photo-5.jpeg' />
             </div>
             <div className='flex left-0 -bottom-5 justify-between p-5 gap-5 items-center bg-teal-600 w-70 h-30 absolute  rounded-l-full rounded-br-full'>
               <Image className='w-20 h-20' width={800} height={600} src="/quality.png" alt='quality.png' />
@@ -33,51 +33,51 @@ const About = () => {
         <div className='pt-50 grid grid-cols-3 grid-rows-2 gap-10'>
           <div>
             <div>
-              <h5 className='text-teal-600 text-2xl font-semibold uppercase'>Our Teachers</h5>
-              <h3 className='text-5xl text-white uppercase font-bold mb-5'>Meet With Our <span className='text-teal-600'>Teachers</span></h3>
+              <h5 className='text-teal-600 text-2xl font-semibold uppercase'>শিক্ষক</h5>
+              <h3 className='text-5xl text-white leading-15 uppercase font-bold mb-5'>আমাদের <span className='text-teal-600'>শিক্ষকবৃন্ধ</span></h3>
               <p className='text-lg mb-14 text-white/80'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
-              <button className='btn'>More Teachers</button>
+              <button className='btn'>অন্নান্য শিক্ষকবৃন্ধ</button>
             </div>
           </div>
 
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher-2.png" alt='teacher-2.png' />
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-1.jpeg" alt='teacher-1.jpeg' />
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">Susan D. Lunsford</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>Associate Professor</h6>
-              <p className="border-t-2 border-teal-600">Social Media has changed the way we interact & do business while creating</p>
+              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোঃ এনামুল হক মোল্লা</h4>
+              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারী অধ্যাপক</h6>
+              <p className="border-t-2 border-teal-600">জীববিজ্ঞান</p>
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher-3.png" alt='teacher-3.png' />
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-2.jpeg" alt='teacher-2.jpeg' />
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">Susan D. Lunsford</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>Associate Professor</h6>
-              <p className="border-t-2 border-teal-600">Social Media has changed the way we interact & do business while creating</p>
+              <h4 className="text-teal-600 text-2xl font-bold uppercase">এস এম জলিল</h4>
+              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
+              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ব্যবস্থাপনা ডিপার্টমেন্ট</p>
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher-4.png" alt='teacher-4.png' />
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-3.jpeg" alt='teacher-3.jpeg'/>
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">Susan D. Lunsford</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>Associate Professor</h6>
-              <p className="border-t-2 border-teal-600">Social Media has changed the way we interact & do business while creating</p>
+              <h4 className="text-teal-600 text-2xl font-bold uppercase">জাহানারা আরজু</h4>
+              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারী অধ্যাপক</h6>
+              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ইসলামের ইতিহাস ও সংস্কৃতি</p>
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher-1.jpg" alt='teacher-1.jpg' />
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-4.jpeg" alt='teacher-4.jpeg' />
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">Susan D. Lunsford</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>Associate Professor</h6>
-              <p className="border-t-2 border-teal-600">Social Media has changed the way we interact & do business while creating</p>
+              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোহাঃ আসাদুজ্জামান</h4>
+              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
+              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান গণিত ডিপার্টমেন্ট</p>
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher-2.png" alt='quality.png' />
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-5.jpeg" alt='teacher-5.jpeg'/>
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">Susan D. Lunsford</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>Associate Professor</h6>
-              <p className="border-t-2 border-teal-600">Social Media has changed the way we interact & do business while creating</p>
+              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোঃ আবুল কালাম আজাদ</h4>
+              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
+              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ইতিহাস ডিপার্টমেন্ট</p>
             </div>
           </div>
         </div>

@@ -19,15 +19,18 @@ const Slider = () => {
   return (
     <div className="w-full m-auto">
       <Swiper ref={sliderRef} autoplay={{ delay: 4000, pauseOnMouseEnter: true }} modules={[Autoplay]}>
-        <div className='w-full h-screen absolute bg-neutral-900/70 top-0 z-10'></div>
+        <div className='w-full h-screen absolute bg-neutral-900/60 top-0 z-10'></div>
         <SwiperSlide>
-          <Image className='w-full h-screen' width={600} height={600} src="/slider-1.jpg" alt='slider-1.jpg' />
+          <Image className='w-full h-screen' width={600} height={600} src="/image-3.jpeg" alt='image-3.jpg' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className='w-full h-screen ' width={600} height={600} src="/slider-2.jpg" alt='slider-2.jpg' />
+          <Image className='w-full h-screen' width={600} height={600} src="/image-2.jpeg" alt='image-2.jpg' />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className='w-full h-screen ' width={600} height={600} src="/slider-3.jpg" alt='slider-3.jpg' />
+          <Image className='w-full h-screen' width={600} height={600} src="/image-1.jpeg" alt='image-1.jpg' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image className='w-full h-screen' width={600} height={600} src="/image-4.jpeg" alt='image-4.jpg' />
         </SwiperSlide>
       </Swiper>
     </div>

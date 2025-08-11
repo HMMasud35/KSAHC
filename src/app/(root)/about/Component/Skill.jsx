@@ -9,7 +9,7 @@ const Skill = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      if (percentage1 < 190) {
+      if (percentage1 < 150) {
         setPercentage1(percentage1 + 1);
       }
       if (percentage2 < 350) {
