@@ -1,3 +1,4 @@
+import Studentsay from '@/Component/Studentsay';
 import Image from 'next/image';
 
 const Gallery = () => {
@@ -28,6 +29,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <Studentsay/>
     </section>
   )
 }

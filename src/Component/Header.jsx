@@ -36,6 +36,7 @@ const Header = () => {
                   className='mr-2 text-2xl font-normal text-white drop-shadow-md drop-shadow-black' />০৬৬২২৫৬১০৯</li>
                 <li className='flex items-center text-lg font-semibold text-white text-shadow-md text-shadow-black'><a href=""></a><MdOutgoingMail className='mr-2 text-2xl font-normal text-white drop-shadow-md drop-shadow-black' />c6305@nu.ac.bd</li>
               </ul>
+              <marque className='text-white text-2xl'>masud</marque>
               <div className='flex relative items-center'>
                 <button className='absolute drop-shadow-xs drop-shadow-black bg-white rounded-4xl px-3 pr-13 text-lg active:bg-orange-900 active:z-10 active:pr-3 group'>বাংলা</button>
                 <button className='absolute drop-shadow-xs drop-shadow-black ml-15 bg-gray-600 rounded-4xl px-3 text-lg text-white active:bg-orange-900 active:z-10 '>EN</button>
