@@ -32,7 +32,7 @@ const Skill = () => {
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage1}+
             </h4>
-            <p className="font-bold text-4xl mt-3 uppercase">Win Awards</p>
+            <p className="font-bold text-4xl mt-3 uppercase">পুরষ্কৃত</p>
           </div>
           <div className="text-center p-5 bg-white rounded-2xl">
             <h4 className='text-teal-600 text-7xl font-bold'>
@@ -44,7 +44,7 @@ const Skill = () => {
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage3}+
             </h4>
-            <p className="font-bold text-4xl mt-3 uppercase">Skilled Lecturers</p>
+            <p className="font-bold text-4xl mt-3 uppercase">দক্ষ প্রভাষক</p>
           </div>
           <div className="text-center p-5 bg-white rounded-2xl">
             <h4 className='text-teal-600 text-7xl font-bold'>

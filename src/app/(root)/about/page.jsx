@@ -19,22 +19,21 @@ const About = () => {
             </div>
             <div className='flex left-0 -bottom-5 justify-between p-5 gap-5 items-center bg-teal-600 w-70 h-30 absolute  rounded-l-full rounded-br-full'>
               <Image className='w-20 h-20' width={800} height={600} src="/quality.png" alt='quality.png' />
-              <p className='text-white text-xl'>30 Years Of Quality Service </p>
+              <p className='text-white text-xl'><span className='text-4xl font-bold text-amber-400'>“৩০”</span> বছরের সাফল্য</p>
             </div>
           </div>
           <div>
-            <h4 className='text-4xl text-teal-600 font-bold uppercase border-dotted border-b-2 mb-5 block pb-3 mr-12 border-teal-600'>About Us</h4>
-            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-10'>Our Edukation System <span className='text-teal-600'>Inspires</span> You More.</h2>
+            <h4 className='text-4xl text-teal-600 font-bold uppercase border-dotted border-b-2 mb-5 block pb-3 mr-12 border-teal-600'>প্রতিষ্ঠান সম্পর্কে</h4>
+            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-10'>আমাদের শিক্ষা ব্যবস্থা আপনাকে আরো <span className='text-teal-600'> অনুপ্রাণিত করবে</span></h2>
             <p className='text-2xl text-white/80 mb-10'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ratione itaque debitis omnis sunt? Quam impedit corporis unde veritatis culpa!</p>
-            <button className='btn'>About More</button>
+            <button className='btn'>আরো জানতে</button>
           </div>
         </div>
 
         <div className='pt-50 grid grid-cols-3 grid-rows-2 gap-10'>
           <div>
             <div>
-              <h5 className='text-teal-600 text-2xl font-semibold uppercase'>শিক্ষক</h5>
-              <h3 className='text-5xl text-white leading-15 uppercase font-bold mb-5'>আমাদের <span className='text-teal-600'>শিক্ষকবৃন্ধ</span></h3>
+              <h3 className='text-5xl text-teal-600 leading-15 uppercase font-bold mb-5'><span className='text-white'>শিক্ষক</span>বৃন্ধ</h3>
               <p className='text-lg mb-14 text-white/80'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
               <button className='btn'>অন্নান্য শিক্ষকবৃন্ধ</button>
             </div>
@@ -57,7 +56,7 @@ const About = () => {
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-3.jpeg" alt='teacher-3.jpeg'/>
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-3.jpeg" alt='teacher-3.jpeg' />
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
               <h4 className="text-teal-600 text-2xl font-bold uppercase">জাহানারা আরজু</h4>
               <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারী অধ্যাপক</h6>
@@ -73,7 +72,7 @@ const About = () => {
             </div>
           </div>
           <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-5.jpeg" alt='teacher-5.jpeg'/>
+            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-5.jpeg" alt='teacher-5.jpeg' />
             <div className="bg-teal-600/20 rounded-b-4xl p-3" >
               <h4 className="text-teal-600 text-2xl font-bold uppercase">মোঃ আবুল কালাম আজাদ</h4>
               <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
