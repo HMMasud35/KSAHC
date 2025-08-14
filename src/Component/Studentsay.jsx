@@ -30,7 +30,7 @@ const Studentsay = () => {
   }, [])
 
   return (
-    <section className="pt-30">
+    <section className="pt-50">
       <div className="container">
         <div className="relative">
           <div>

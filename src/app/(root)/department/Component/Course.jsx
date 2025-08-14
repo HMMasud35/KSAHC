@@ -34,7 +34,12 @@ const Course = () => {
     <section >
       {/* <Loading/> */}
       <div className="container">
-        <div className='py-30'>
+         <div className='w-200'>
+            <h4 className='text-4 xl text-teal-600 font-bold mb-5 block pb-3 mr-12 border-teal-600'>বিভাগ সম্পর্কে</h4>
+            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-10'>আমাদের শিক্ষা ব্যবস্থা <span className='text-teal-600'> অনুপ্রাণিত করবে</span></h2>
+            <p className='text-2xl text-white/80 mb-10'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ratione itaque debitis omnis sunt? Quam impedit corporis unde veritatis culpa!</p>
+          </div>
+        <div>
           <div>
             <Swiper
               ref={sliderRef}

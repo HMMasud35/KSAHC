@@ -24,7 +24,7 @@
   }
 
   .item {
-    @apply relative mt-7 py-2 pb-4 px-4 hover:text-teal-600 after:content-[""] after:absolute after:-bottom-0 after:left-0 after:h-1 after:w-full after:bg-teal-600 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
+    @apply relative mt-7 py-5 pb-4 px-4 hover:text-teal-800 after:content-[""] after:absolute after:-bottom-0 after:left-0 after:h-1 after:w-full after:bg-teal-800 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
   }
 
    .btn {

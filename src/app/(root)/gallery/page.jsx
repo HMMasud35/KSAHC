@@ -19,11 +19,6 @@ const Gallery = () => {
               <Image className='w-full h-full row-span-2 rounded-l-4xl rounded-br-4xl' width={800} height={800} src="/photo-1.jpeg" alt='photo-1.jpeg' />
               <Image className='w-full h-full row-span-2 rounded-b-4xl ' width={800} height={800} src="/photo-5.jpeg" alt='photo-5.jpeg' />
               <Image className='w-full h-full row-span-2 rounded-bl-4xl rounded-r-4xl' width={800} height={800} src="/photo-2.jpeg" alt='photo-2.jpeg' />
-              {/* <Image className='w-full h-full row-span-2 rounded-r-4xl' width={800} height={800} src="/student-3.png" alt='scholarship.png' />
-              <Image className='w-full h-full rounded-l-4xl' width={800} height={800} src="/teacher-1.jpg" alt='scholarship.png' />
-              <Image className='w-full h-full row-span-3 rounded-bl-4xl rounded-r-4xl' width={800} height={800} src="/teacher-2.png" alt='scholarship.png' />
-              <Image className='w-full h-full row-span-2 rounded-l-4xl rounded-br-4xl' width={800} height={800} src="/teacher-3.png" alt='scholarship.png' />
-              <Image className='w-full h-full row-span-2 rounded-bl-4xl rounded-r-4xl' width={800} height={800} src="/teacher-4.png" alt='scholarship.png' /> */}
             </div>
             <button className='btn mt-10 block m-auto'>More Images</button>
           </div>

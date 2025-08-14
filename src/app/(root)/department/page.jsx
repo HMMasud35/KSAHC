@@ -3,9 +3,9 @@ import Course from './Component/Course'
 
 const Department = () => {
   return (
-    <div>
+    <section className='pb-30'>
       <Course/>
-    </div>
+    </section>
   )
 }
 
