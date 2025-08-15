@@ -25,7 +25,7 @@ const Skill = () => {
   }, [percentage2]);
 
   return (
-    <section className='py-30 mt-30 bg-gray-400/10'>
+    <section className='py-30 mt-30'>
       <div className=' container'>
         <div className='skill  rounded-2xl grid grid-cols-4 gap-20 justify-around'>
           <div className="text-center p-5 bg-white rounded-2xl">

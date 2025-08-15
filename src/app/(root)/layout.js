@@ -3,7 +3,7 @@ import Header from '@/Component/Header'
 import ScrollP from '@/Component/ScrollP'
 import React from 'react'
 
-export default function RootLayout({children}) {
+export default function MainLayout({children}) {
   return (
     <>
     <ScrollP/>

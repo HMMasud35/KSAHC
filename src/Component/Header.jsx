@@ -36,10 +36,10 @@ const Header = () => {
               </ul>
               <div className='flex h-full'>
                 <div className='text-teal-800 font-bold text-lg bg-white py-3 px-5 -skew-x-25'>সর্বশেষ বিজ্ঞপ্তিঃ</div>
-                <marquee scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()" className="py-3 w-190 cursor-pointer">
+                <marquee scrollamount="4" className="-ml-2 py-3 w-190">
                   <ul className='flex'>
-                    <li className='text-lg text-white px-5 flex items-center'> <BiSolidRightArrow className='mr-3' />কালকিনি সৈয়দ আবুল হোসেন কলেজ</li>
-                    <li className='text-lg text-white px-5 flex items-center'> <BiSolidRightArrow className='mr-3' />কালকিনি সৈয়দ আবুল হোসেন কলেজ</li>
+                    <li className='text-lg text-white px-3 flex items-center'> <BiSolidRightArrow className='mr-2' />কালকিনি সৈয়দ আবুল হোসেন কলেজ</li>
+                    <li className='text-lg text-white px-3 flex items-center'> <BiSolidRightArrow className='mr-2' />কালকিনি সৈয়দ আবুল হোসেন কলেজ</li>
                   </ul>
                 </marquee>
               </div>
@@ -55,7 +55,7 @@ const Header = () => {
         <div className="container">
           <div className="flex justify-between items-center h-23">
             <div className='cursor-pointer w-17 '>
-              <Image className='' width={2053} height={469} src="/logo.png" alt='logo.png' />
+              <Image width={800} height={800} src="/logo.png" alt='logo.png' />
             </div>
             <ul className='flex text-xl text-black items-end'>
               <li className='item'><Link href="/"><FaHome className='text-3xl' /></Link></li>

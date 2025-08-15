@@ -18,7 +18,7 @@ const Slider = () => {
 
   return (
     <div className="w-full m-auto">
-      <Swiper ref={sliderRef} autoplay={{ delay: 4000, pauseOnMouseEnter: true }} modules={[Autoplay]}>
+      <Swiper ref={sliderRef} autoplay={{ delay: 4000 }} modules={[Autoplay]}>
         <div className='w-full h-screen absolute bg-neutral-900/60 top-0 z-10'></div>
         <SwiperSlide>
           <Image className='w-full h-screen' width={600} height={600} src="/image-3.jpeg" alt='image-3.jpg' />
