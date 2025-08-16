@@ -1,97 +1,37 @@
-"use client"
 import React from 'react'
 import Image from 'next/image'
-import Skill from './Component/Skill'
-import { useRouter } from 'next/navigation'
-
+import Skill from '../Component/Skill'
+import Teachers from '../Component/Teachers'
+import Studentsay from '../Component/Studentsay'
 
 const About = () => {
-  const router = useRouter()
-
-  let handleAbout = () => {
-    router.push('/about')
-  }
- 
-
   return (
-    <section className='py-30 bg-gray-950'>
-      <div className="container">
-        <div className='grid grid-cols-2 justify-between items-center'>
-          <div className='grid grid-cols-2 grid-rows-2 relative'>
-            <div className='row-span-2 rounded-l-full ' >
-              <Image className='w-70 h-100 border-4 border-teal-600 rounded-l-full' width={800} height={600} src="/photo-1.jpeg" alt='photo-1.jpeg' />
+    <section>
+      <div className="bg-[url(/photo-5.jpeg)] bg-no-repeat bg-center bg-cover relative">
+        <div className="container">
+          <div className='h-100 py-10'>
+            <div className='w-60 h-65 bg-white border-6 border-gray-400 overflow-hidden ml-70 mt-10'>
+              <Image width={420} height={480} src="/teacher/princepal.png" alt='princepal.png' />
             </div>
-            <div>
-              <Image className='w-70 h-60 border-4 border-teal-600 rounded-2xl' width={800} height={600} src="/photo-4.jpeg" alt='photo-4.jpeg' />
-            </div>
-            <div className=''>
-              <Image className='w-70 h-70 border-4 border-teal-600 rounded-full' width={800} height={600} src="/photo-5.jpeg" alt='photo-5.jpeg' />
-            </div>
-            <div className='flex left-0 -bottom-5 justify-between p-5 gap-5 items-center bg-teal-600 w-70 h-30 absolute  rounded-l-full rounded-br-full'>
-              <Image className='w-20 h-20' width={800} height={600} src="/quality.png" alt='quality.png' />
-              <p className='text-white text-xl'><span className='text-4xl font-bold text-amber-400'>“৩০”</span> বছরের সাফল্য</p>
-            </div>
-          </div>
-          <div>
-            <h4 className='text-4xl text-teal-600 font-bold uppercase border-dotted border-b-2 mb-5 block pb-3 mr-12 border-teal-600'>প্রতিষ্ঠান সম্পর্কে</h4>
-            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-10'>আমাদের শিক্ষা ব্যবস্থা আপনাকে আরো <span className='text-teal-600'> অনুপ্রাণিত করবে</span></h2>
-            <p className='text-2xl text-white/80 mb-10'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ratione itaque debitis omnis sunt? Quam impedit corporis unde veritatis culpa!</p>
-            <button onClick={handleAbout} className='btn'>আরো জানতে</button>
-          </div>
-        </div>
-
-        <div className='pt-50 grid grid-cols-3 grid-rows-2 gap-10'>
-          <div>
-            <div>
-              <h3 className='text-5xl text-teal-600 leading-15 uppercase font-bold mb-5'><span className='text-white'>শিক্ষক</span>বৃন্ধ</h3>
-              <p className='text-lg mb-14 text-white/80'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
-              <button className='btn'>অন্নান্য শিক্ষকবৃন্ধ</button>
-            </div>
-          </div>
-
-          <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/princepal.png" alt='princepal.png' />
-            <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোঃ নিজামুল হক তালুকদার</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>অধ্যক্ষ (ভারপ্রাপ্ত)</h6>
-              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ইতিহাস ডিপার্টমেন্ট</p>
-            </div>
-          </div>
-          <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-1.jpeg" alt='teacher-1.jpeg' />
-            <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোঃ এনামুল হক মোল্লা</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারী অধ্যাপক</h6>
-              <p className="border-t-2 border-teal-600">জীববিজ্ঞান</p>
-            </div>
-          </div>
-          <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-2.jpeg" alt='teacher-2.jpeg' />
-            <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">এস এম জলিল</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
-              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ব্যবস্থাপনা ডিপার্টমেন্ট</p>
-            </div>
-          </div>
-          <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-3.jpeg" alt='teacher-3.jpeg' />
-            <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">জাহানারা আরজু</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারী অধ্যাপক</h6>
-              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান ইসলামের ইতিহাস ও সংস্কৃতি</p>
-            </div>
-          </div>
-          <div className=" teacher">
-            <Image className='h-70 m-auto rounded-tl-4xl' width={800} height={600} src="/teacher/teacher-4.jpeg" alt='teacher-4.jpeg' />
-            <div className="bg-teal-600/20 rounded-b-4xl p-3" >
-              <h4 className="text-teal-600 text-2xl font-bold uppercase">মোহাঃ আসাদুজ্জামান</h4>
-              <h6 className='text-lg font-normal uppercase tracking-widest mb-3 '>সহকারি অধ্যাপক</h6>
-              <p className="border-t-2 border-teal-600">বিভাগীয় প্রধান গণিত ডিপার্টমেন্ট</p>
+            <div className='bg-teal-600 h-80 w-200 rounded-t-3xl rounded-br-3xl p-10 border-b-6 border-r-6 border-white absolute -bottom-40 right-50'>
+              <h2 className='text-2xl text-white font-bold text-shadow-md text-shadow-black mb-3'>কালকিনি সৈয়দ আবুল হোসেন কলেজে স্বাগতম....</h2>
+              <p className="leading-8 text-justify text-xl text-white">
+                কালকিনি সৈয়দ আবুল হোসেন কলেজ মাদারীপুর জেলার কালকিনি উপজেলার একটি এমপিও ভুক্ত কলেজ। অনগ্রসর জনগোষ্ঠীর উন্নয়নের লক্ষ্যে  কয়েকজন শিক্ষানুরাগী ব্যক্তির উদ্যোগে ১ জুলাই ১৯৭২ খ্রিষ্টাব্দে একাদশ বিজ্ঞান, বাণিজ্য ও মানবিক বিভাগ নিয়ে বেসরকারিরূপে কালকিনি সৈয়দ আবুল হোসেন কলেজ  প্রতিষ্ঠিত হয়। বর্তমানে কলেজে ১২টি বিষয়ে অনার্স, ৩ টি বিষয়ে মাস্টার্স ও ডিগ্রি (পাস) কের্সে (বি.এ /বি.এস.এস/বি.এস.সি এবং বি.বি. এস) বিষয়ে পাঠদান করা হয়।
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <div className='bg-gray-950 pt-50 pb-30'>
+        <div className="container">
+          <div className='relative p-10 rounded-br-4xl border-r-4 border-teal-600 after:content-[""] after:absolute after:top-0 after:left-10 after:h-3 after:w-50 after:bg-teal-600 after:rounded-full before:content-[""] before:absolute bofore:top-0 before:left-0 before:h-50 before:w-3 before:bg-teal-600 before:rounded-full'>
+            <p className='text-xl leading-8 text-justify text-white'>কালকিনি সৈয়দ আবুল হোসেন কলেজ  কালকিনি উপজেলা  অবস্থিত। যার অবস্থান শহরের প্রবেশ মুখেই অত্যন্ত মনোরম পরিবেশে কলেজটির অবস্থান। বর্তমানে কলেজটি ডিজিটাল ক্যাম্পাস নামে পরিচিত। অত্র কলেজের জমির পরিমাণ ৭ একর। এই জমির বিভিন্ন অংশে প্রতিষ্ঠানের সাথে সম্পর্কিত বিভিন্ন অবকাঠামো নির্মিত হয়েছে। কালকিনি সৈয়দ আবুল হোসেন কলেজে ১টি প্রশাসনিক ভবন, ৩টি একাডেমিক ভবন, ১টি লাইব্রেরি ভবন, ১টি বিজ্ঞান ভবন ,১ টি আই.সি.টি ভবন ও ১টি মসজিদ রয়েছে। ছাত্রদের জন্য ১ টি ছাত্রাবাস ও ছাত্রীদের জন্য ১টি ছাত্রীনিবাস । শিক্ষার্থীদের নিরাপত্তা ও শৃঙ্গলা বজায় রাখার জন্য সমগ্র ক্যাম্পসে সি.সি ক্যামেরার আয়ত্তে রয়েছে। একাডেমিক কার্যক্রমের পাশাপাশি জাতীয় ও আন্তর্জাতিক বিভিন্ন অনুষ্ঠান উদযাপন করার জন্য হল রুম ছাড়াও বিশাল মাঠ এবং মাঠ সংলগ্ন মঞ্চ স্থাপন করা হয়েছে।  বৈষম্যহীন বর্তমান বাংলাদেশের শিক্ষা, প্রযুক্তি ও অবকাঠামো খাতে ঐতিহ্যবাহী এই শিক্ষা প্রতিষ্ঠান গুরুত্বপূর্ণ ভূমিকা পালন করে যাচ্ছে, যা বাংলাদেশের ইতিবাচক পরিবর্তনকে আরও তরান্বিত করবে। আমরা দক্ষিণ বাংলাদেশের শিক্ষাক্ষেত্রে অধিকতর উন্নয়নে সর্বদা বদ্ধপরিকর।</p>
+          </div>
+        </div>
+      </div>
       <Skill />
+      <Teachers />
+      <Studentsay />
     </section>
   )
 }

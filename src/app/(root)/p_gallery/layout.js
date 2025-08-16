@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AboutLayout({ children }) {
+export default function GalleryLayout({ children }) {
   return (
     <>
       {children}

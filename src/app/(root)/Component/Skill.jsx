@@ -25,28 +25,28 @@ const Skill = () => {
   }, [percentage2]);
 
   return (
-    <section className='py-30 mt-30'>
+    <section className='py-30'>
       <div className=' container'>
         <div className='skill  rounded-2xl grid grid-cols-4 gap-20 justify-around'>
-          <div className="text-center p-5 bg-white rounded-2xl">
+          <div className="text-center p-5 bg-white rounded-2xl shadow-[5px_8px_10px_0px_rgb(0_30_30/0.8)]">
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage1}+
             </h4>
             <p className="font-bold text-4xl mt-3 uppercase">পুরষ্কৃত</p>
           </div>
-          <div className="text-center p-5 bg-white rounded-2xl">
+          <div className="text-center p-5 bg-white rounded-2xl shadow-[5px_8px_10px_0px_rgb(0_30_30/0.8)]">
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage2}+
             </h4>
             <p className="font-bold text-4xl mt-3 uppercase">Our Students</p>
           </div>
-          <div className="text-center p-5 bg-white rounded-2xl">
+          <div className="text-center p-5 bg-white rounded-2xl shadow-[5px_8px_10px_0px_rgb(0_30_30/0.8)]">
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage3}+
             </h4>
             <p className="font-bold text-4xl mt-3 uppercase">দক্ষ প্রভাষক</p>
           </div>
-          <div className="text-center p-5 bg-white rounded-2xl">
+          <div className="text-center p-5 bg-white rounded-2xl shadow-[5px_8px_10px_0px_rgb(0_30_30/0.8)]">
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage4}+
             </h4>

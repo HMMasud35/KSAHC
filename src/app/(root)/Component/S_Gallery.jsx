@@ -1,15 +1,21 @@
-import Studentsay from '@/Component/Studentsay';
+"use client"
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
-const Gallery = () => {
+const  S_Gallery = () => {
+  const router = useRouter()
+
+  let handleGallery = () => {
+    router.push("/p_gallery")
+  }
 
   return (
-    <section className='py-30'>
+    <section className='py-30 bg-gray-950'>
       <div className="container">
         <div>
           <div className='text-center'>
-            <h5 className='text-teal-600 text-2xl font-semibold uppercase mb-3'>Gallery</h5>
-            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-15'> Our Photo <span className='text-teal-600'>Gallery</span></h2>
+            <h5 className='text-teal-600 text-2xl font-semibold uppercase mb-3'>গ্যালারী</h5>
+            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-15'> আমাদের ফটো<span className='text-teal-600'> গ্যালারী</span></h2>
             <p className='mb-15 w-200 text-justify text-lg text-white/70 relative left-5 after:w-20 after:h-1.5 after:bg-teal-600 after:absolute after:-top-3 after:left-0 after:rounded-full'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore in id recusandae perspiciatis sit fugit molestias velit  consequuntur et quo, esse in repellendus nihil voluptatem. Fugit, qui.</p>
           </div>
           <div>
@@ -20,13 +26,12 @@ const Gallery = () => {
               <Image className='w-full h-full row-span-2 rounded-b-4xl ' width={800} height={800} src="/photo-5.jpeg" alt='photo-5.jpeg' />
               <Image className='w-full h-full row-span-2 rounded-bl-4xl rounded-r-4xl' width={800} height={800} src="/photo-2.jpeg" alt='photo-2.jpeg' />
             </div>
-            <button className='btn mt-10 block m-auto'>More Images</button>
+            <button onClick={handleGallery} className='btn mt-10 block m-auto'>More Images</button>
           </div>
         </div>
       </div>
-      <Studentsay/>
     </section>
   )
 }
 
-export default Gallery
+export default S_Gallery

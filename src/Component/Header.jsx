@@ -62,7 +62,7 @@ const Header = () => {
               <li className='item after:hidden group'><Link href="" className='flex items-center'>প্রতিষ্ঠান <SlArrowDown className='text-sm ml-1' /></Link>
                 <div className='w-70 bg-teal-600 absolute top-15 left-0 z-20 border-t-4 border-teal-800 hidden group-hover:block'>
                   <ul className=''>
-                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />প্রতিষ্ঠান সম্পর্কে</Link></li>
+                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="/about" className='flex items-center'><SlActionRedo className='mr-3' />প্রতিষ্ঠান সম্পর্কে</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />শিক্ষকবৃন্ধ</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />কর্রচারী-কর্মকর্তা</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />ম্যানেজিং কমিটি</Link></li>
@@ -83,7 +83,7 @@ const Header = () => {
               <li className='item after:hidden group'><Link href="" className='flex items-center'>গ্যালারী<SlArrowDown className='text-sm ml-1' /></Link>
                 <div className='w-60 bg-teal-600 absolute top-15 left-0 z-20 border-t-4 border-teal-800 hidden group-hover:block'>
                   <ul className=''>
-                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />গ্যালারী</Link></li>
+                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="/p_gallery" className='flex items-center'><SlActionRedo className='mr-3' />গ্যালারী</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />ভিডিও</Link></li>
                   </ul>
                 </div>

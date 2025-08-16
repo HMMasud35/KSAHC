@@ -25,6 +25,6 @@
   }
 
   .teacher {
-    @apply relative bg-white rounded-l-4xl rounded-br-4xl p-5 justify-center after:content-[""] after:absolute after:-bottom-0 after:left-0 after:rounded-l-4xl after:rounded-br-4xl after:h-full after:w-full after:bg-teal-900/60 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
+    @apply relative bg-white rounded-l-4xl rounded-br-4xl p-5 justify-center after:content-[""] after:absolute after:-bottom-0 after:left-0 after:rounded-l-4xl after:rounded-br-4xl after:h-full after:w-full after:bg-teal-800/50 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
   }
 }

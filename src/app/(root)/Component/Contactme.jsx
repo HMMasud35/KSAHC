@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Contactme = () => {
   return (
     <section className='py-30 bg-gray-950'>
       <div className="container">
@@ -10,8 +10,8 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
           />
           <div className='col-span-2 items-center'>
-            <h5 className='text-green-400 text-xl uppercase font-bold'>বৈশিষ্ট্যগুলি অন্বেষণ করুন</h5>
-            <h2 className='text-6xl font-oswald uppercase -tracking-wide font-extrabold text-white '><span className='text-green-400'>যোগাযোগ</span> করুন</h2>
+            <h5 className='text-teal-600 text-xl uppercase font-bold'>বৈশিষ্ট্যগুলি অন্বেষণ করুন</h5>
+            <h2 className='text-6xl font-oswald uppercase -tracking-wide font-extrabold text-white '><span className='text-teal-600'>যোগাযোগ</span> করুন</h2>
           </div>
           <form className=" bg-sky-950/30 p-5 border-2 border-[#ffffff46] rounded-2xl col-span-2 row-span-4 text-white">
             <div className='grid grid-cols-2 gap-x-10 gap-y-5 grid-rows-2'>
@@ -103,4 +103,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contactme
