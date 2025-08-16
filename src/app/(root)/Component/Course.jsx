@@ -15,10 +15,12 @@ import 'swiper/css/pagination';
 // import required modules
 import { Autoplay } from 'swiper/modules';
 import { useCallback, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 // import Loading from '../../Lodding/page';
 
 const Course = () => {
   const sliderRef = useRef(null)
+  const router = useRouter()
 
   const handlePrev = useCallback(() => {
     if (!sliderRef.current) return;
@@ -29,6 +31,10 @@ const Course = () => {
     if (!sliderRef.current) return;
     sliderRef.current.swiper.slideNext()
   }, [])
+
+  let handleDeperment = () => {
+    router.push("/p_gallery")
+  }
 
   return (
     <section>
@@ -145,6 +151,7 @@ const Course = () => {
                 </div>
               </div></SwiperSlide>
             </Swiper>
+            <button onClick={handleDeperment} className='btn mt-10 block m-auto'>অন্যান্য বিভাগ</button>
           </div>
         </div>
       </div>

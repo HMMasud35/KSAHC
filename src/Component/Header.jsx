@@ -64,7 +64,7 @@ const Header = () => {
                   <ul className=''>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="/about" className='flex items-center'><SlActionRedo className='mr-3' />প্রতিষ্ঠান সম্পর্কে</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />শিক্ষকবৃন্ধ</Link></li>
-                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />কর্রচারী-কর্মকর্তা</Link></li>
+                    <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />কর্মচারী-কর্মকর্তা</Link></li>
                     <li className='w-full px-5 py-2 border-b-2 border-gray-400/70 text-white text-xl hover:text-white hover:bg-teal-800/40'><Link href="" className='flex items-center'><SlActionRedo className='mr-3' />ম্যানেজিং কমিটি</Link></li>
                   </ul>
                 </div>

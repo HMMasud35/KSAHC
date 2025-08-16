@@ -32,9 +32,15 @@ const Aboutus = () => {
             </div>
           </div>
           <div>
-            <h4 className='text-4xl text-teal-600 font-bold uppercase border-dotted border-b-2 mb-5 block pb-3 mr-12 border-teal-600'>প্রতিষ্ঠান সম্পর্কে</h4>
-            <h2 className='text-white text-6xl font-bold uppercase leading-15 mb-10'>আমাদের শিক্ষা ব্যবস্থা আপনাকে আরো <span className='text-teal-600'> অনুপ্রাণিত করবে</span></h2>
-            <p className='text-2xl text-white/80 mb-10'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ratione itaque debitis omnis sunt? Quam impedit corporis unde veritatis culpa!</p>
+            <h4 className='text-4xl text-teal-600 font-bold uppercase border-dotted border-b-2 mb-5 block pb-3 border-teal-600'>প্রতিষ্ঠানিক তথ্য</h4>
+            <div className='grid grid-cols-2 gap-5 gap-y-5 grid-rows-2 items-center mb-5'>
+              <div className='relative text-xl text-white px-5 py-3 bg-gray-800/50 rounded-md'>প্রতিষ্ঠার বছর<span className='left-35 absolute'>|</span><span className='left-40 absolute'>০১ জুলাই ১৯৭২</span></div>
+              <div className=' relative text-xl text-white px-5 py-3 bg-gray-800/50 rounded-md'>কলেজ কোড<span className='left-35 absolute'>|</span><span className='left-40 absolute'>৬৩০৫</span></div>
+              <div className='relative text-xl text-white px-5 py-3 bg-gray-800/50 rounded-md'>ই-টিন<span className='left-35 absolute'>|</span><span className='left-40 absolute'>১১০৭১৬</span></div>
+              <div className='relative text-xl text-white p-3 bg-gray-800/50 rounded-md'>মোবাইল<span className='left-35 absolute'>|</span><span className='left-40 absolute'>০১৭১৫১৬৫০৬২</span></div>
+              <div className='relative text-xl text-white p-3 bg-gray-800/50 rounded-md'>ই-মেইল<span className='left-35 absolute'>|</span><span className='left-40 absolute'>c6305@nu.ac.bg</span></div>
+              <div className='relative text-xl text-white p-3 pb-8 bg-gray-800/50 rounded-md'>ঠিকানা<span className='left-25 absolute'>|</span><span className='left-30 absolute'>পাঙ্গাশিয়া, কালকিনি, মাদারীপুর</span></div>
+            </div>
             <button onClick={handleAbout} className='btn'>আরো জানতে</button>
           </div>
         </div>

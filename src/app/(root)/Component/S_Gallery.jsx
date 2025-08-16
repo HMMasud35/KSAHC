@@ -26,7 +26,7 @@ const  S_Gallery = () => {
               <Image className='w-full h-full row-span-2 rounded-b-4xl ' width={800} height={800} src="/photo-5.jpeg" alt='photo-5.jpeg' />
               <Image className='w-full h-full row-span-2 rounded-bl-4xl rounded-r-4xl' width={800} height={800} src="/photo-2.jpeg" alt='photo-2.jpeg' />
             </div>
-            <button onClick={handleGallery} className='btn mt-10 block m-auto'>More Images</button>
+            <button onClick={handleGallery} className='btn mt-10 block m-auto'>আরো দেখতে</button>
           </div>
         </div>
       </div>

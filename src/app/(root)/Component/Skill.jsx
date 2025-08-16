@@ -9,13 +9,13 @@ const Skill = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      if (percentage1 < 150) {
+      if (percentage1 < 250) {
         setPercentage1(percentage1 + 1);
       }
       if (percentage2 < 350) {
         setPercentage2(percentage2 + 1);
       }
-      if (percentage3 < 35) {
+      if (percentage3 < 60) {
         setPercentage3(percentage3 + 1);
       }
       if (percentage4 < 302) {
@@ -38,7 +38,7 @@ const Skill = () => {
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage2}+
             </h4>
-            <p className="font-bold text-4xl mt-3 uppercase">Our Students</p>
+            <p className="font-bold text-4xl mt-3 uppercase">ছাত্র-ছাত্রী</p>
           </div>
           <div className="text-center p-5 bg-white rounded-2xl shadow-[5px_8px_10px_0px_rgb(0_30_30/0.8)]">
             <h4 className='text-teal-600 text-7xl font-bold'>
@@ -50,7 +50,7 @@ const Skill = () => {
             <h4 className='text-teal-600 text-7xl font-bold'>
               {percentage4}+
             </h4>
-            <p className="font-bold text-4xl mt-3 uppercase">Happy Students</p>
+            <p className="font-bold text-4xl mt-3 uppercase">সফল <br /> ছাত্র-ছাত্রী</p>
           </div>
         </div>
       </div>
